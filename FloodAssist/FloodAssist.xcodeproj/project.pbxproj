@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4336294A1D6798D10036E87D /* ThemisAssistanceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433629461D6798D10036E87D /* ThemisAssistanceTableViewController.swift */; };
+		4336294B1D6798D10036E87D /* ThemisObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433629471D6798D10036E87D /* ThemisObject.swift */; };
+		4336294C1D6798D10036E87D /* ThemisInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433629481D6798D10036E87D /* ThemisInfoTableViewController.swift */; };
+		4336294D1D6798D10036E87D /* LocationAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433629491D6798D10036E87D /* LocationAnnotation.swift */; };
+		4336294F1D6798DE0036E87D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4336294E1D6798DE0036E87D /* MapKit.framework */; };
+		433629511D6798EE0036E87D /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433629501D6798EE0036E87D /* Contacts.framework */; };
+		433629531D6798F50036E87D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433629521D6798F50036E87D /* CoreLocation.framework */; };
+		433726A71D67AFF200AEF870 /* ip_76.png in Resources */ = {isa = PBXBuildFile; fileRef = 433726A11D67AFF200AEF870 /* ip_76.png */; };
+		433726A81D67AFF200AEF870 /* ip_152.png in Resources */ = {isa = PBXBuildFile; fileRef = 433726A21D67AFF200AEF870 /* ip_152.png */; };
+		433726A91D67AFF200AEF870 /* ip_80.png in Resources */ = {isa = PBXBuildFile; fileRef = 433726A31D67AFF200AEF870 /* ip_80.png */; };
+		433726AA1D67AFF200AEF870 /* ip_40.png in Resources */ = {isa = PBXBuildFile; fileRef = 433726A41D67AFF200AEF870 /* ip_40.png */; };
+		433726AB1D67AFF200AEF870 /* ip_58.png in Resources */ = {isa = PBXBuildFile; fileRef = 433726A51D67AFF200AEF870 /* ip_58.png */; };
+		433726AC1D67AFF200AEF870 /* ip_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 433726A61D67AFF200AEF870 /* ip_120.png */; };
+		433726AF1D67B13900AEF870 /* ip_180.png in Resources */ = {isa = PBXBuildFile; fileRef = 433726AD1D67B13900AEF870 /* ip_180.png */; };
+		433726B01D67B13900AEF870 /* ip_87.png in Resources */ = {isa = PBXBuildFile; fileRef = 433726AE1D67B13900AEF870 /* ip_87.png */; };
+		433726B21D67B1AC00AEF870 /* ip_167.png in Resources */ = {isa = PBXBuildFile; fileRef = 433726B11D67B1AC00AEF870 /* ip_167.png */; };
+		433726B41D67B1D700AEF870 /* ip_29.png in Resources */ = {isa = PBXBuildFile; fileRef = 433726B31D67B1D700AEF870 /* ip_29.png */; };
+		4386CD931D640F7E00D933CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4386CD921D640F7E00D933CA /* AppDelegate.swift */; };
+		4386CD981D640F7E00D933CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4386CD961D640F7E00D933CA /* Main.storyboard */; };
+		4386CD9A1D640F7E00D933CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4386CD991D640F7E00D933CA /* Assets.xcassets */; };
+		4386CD9D1D640F7E00D933CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4386CD9B1D640F7E00D933CA /* LaunchScreen.storyboard */; };
+		4386CDA81D640F7E00D933CA /* FloodAssistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4386CDA71D640F7E00D933CA /* FloodAssistTests.swift */; };
+		4386CDB31D640F7E00D933CA /* FloodAssistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4386CDB21D640F7E00D933CA /* FloodAssistUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4386CDA41D640F7E00D933CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4386CD871D640F7D00D933CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4386CD8E1D640F7D00D933CA;
+			remoteInfo = FloodAssist;
+		};
+		4386CDAF1D640F7E00D933CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4386CD871D640F7D00D933CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4386CD8E1D640F7D00D933CA;
+			remoteInfo = FloodAssist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		433629461D6798D10036E87D /* ThemisAssistanceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemisAssistanceTableViewController.swift; sourceTree = "<group>"; };
+		433629471D6798D10036E87D /* ThemisObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemisObject.swift; sourceTree = "<group>"; };
+		433629481D6798D10036E87D /* ThemisInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemisInfoTableViewController.swift; sourceTree = "<group>"; };
+		433629491D6798D10036E87D /* LocationAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationAnnotation.swift; sourceTree = "<group>"; };
+		4336294E1D6798DE0036E87D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		433629501D6798EE0036E87D /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		433629521D6798F50036E87D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		433726A11D67AFF200AEF870 /* ip_76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ip_76.png; path = ../../../Desktop/ip_76.png; sourceTree = "<group>"; };
+		433726A21D67AFF200AEF870 /* ip_152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ip_152.png; path = ../../../Desktop/ip_152.png; sourceTree = "<group>"; };
+		433726A31D67AFF200AEF870 /* ip_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ip_80.png; path = ../../../Desktop/ip_80.png; sourceTree = "<group>"; };
+		433726A41D67AFF200AEF870 /* ip_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ip_40.png; path = ../../../Desktop/ip_40.png; sourceTree = "<group>"; };
+		433726A51D67AFF200AEF870 /* ip_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ip_58.png; path = ../../../Desktop/ip_58.png; sourceTree = "<group>"; };
+		433726A61D67AFF200AEF870 /* ip_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ip_120.png; path = ../../../Desktop/ip_120.png; sourceTree = "<group>"; };
+		433726AD1D67B13900AEF870 /* ip_180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ip_180.png; path = ../../../Desktop/ip_180.png; sourceTree = "<group>"; };
+		433726AE1D67B13900AEF870 /* ip_87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ip_87.png; path = ../../../Desktop/ip_87.png; sourceTree = "<group>"; };
+		433726B11D67B1AC00AEF870 /* ip_167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ip_167.png; path = ../../../Desktop/ip_167.png; sourceTree = "<group>"; };
+		433726B31D67B1D700AEF870 /* ip_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ip_29.png; path = ../../../Desktop/ip_29.png; sourceTree = "<group>"; };
+		4386CD8F1D640F7E00D933CA /* FloodAssist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloodAssist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4386CD921D640F7E00D933CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4386CD971D640F7E00D933CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4386CD991D640F7E00D933CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4386CD9C1D640F7E00D933CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4386CD9E1D640F7E00D933CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4386CDA31D640F7E00D933CA /* FloodAssistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloodAssistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4386CDA71D640F7E00D933CA /* FloodAssistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodAssistTests.swift; sourceTree = "<group>"; };
+		4386CDA91D640F7E00D933CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4386CDAE1D640F7E00D933CA /* FloodAssistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloodAssistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4386CDB21D640F7E00D933CA /* FloodAssistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodAssistUITests.swift; sourceTree = "<group>"; };
+		4386CDB41D640F7E00D933CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4386CD8C1D640F7D00D933CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433629531D6798F50036E87D /* CoreLocation.framework in Frameworks */,
+				433629511D6798EE0036E87D /* Contacts.framework in Frameworks */,
+				4336294F1D6798DE0036E87D /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4386CDA01D640F7E00D933CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4386CDAB1D640F7E00D933CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4386CD861D640F7D00D933CA = {
+			isa = PBXGroup;
+			children = (
+				433629521D6798F50036E87D /* CoreLocation.framework */,
+				433629501D6798EE0036E87D /* Contacts.framework */,
+				4336294E1D6798DE0036E87D /* MapKit.framework */,
+				4386CD911D640F7E00D933CA /* FloodAssist */,
+				4386CDA61D640F7E00D933CA /* FloodAssistTests */,
+				4386CDB11D640F7E00D933CA /* FloodAssistUITests */,
+				4386CD901D640F7E00D933CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4386CD901D640F7E00D933CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4386CD8F1D640F7E00D933CA /* FloodAssist.app */,
+				4386CDA31D640F7E00D933CA /* FloodAssistTests.xctest */,
+				4386CDAE1D640F7E00D933CA /* FloodAssistUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4386CD911D640F7E00D933CA /* FloodAssist */ = {
+			isa = PBXGroup;
+			children = (
+				433629461D6798D10036E87D /* ThemisAssistanceTableViewController.swift */,
+				433629471D6798D10036E87D /* ThemisObject.swift */,
+				433629481D6798D10036E87D /* ThemisInfoTableViewController.swift */,
+				433629491D6798D10036E87D /* LocationAnnotation.swift */,
+				4386CD921D640F7E00D933CA /* AppDelegate.swift */,
+				4386CD961D640F7E00D933CA /* Main.storyboard */,
+				4386CD991D640F7E00D933CA /* Assets.xcassets */,
+				4386CD9B1D640F7E00D933CA /* LaunchScreen.storyboard */,
+				433726B31D67B1D700AEF870 /* ip_29.png */,
+				4386CD9E1D640F7E00D933CA /* Info.plist */,
+				433726B11D67B1AC00AEF870 /* ip_167.png */,
+				433726A11D67AFF200AEF870 /* ip_76.png */,
+				433726A21D67AFF200AEF870 /* ip_152.png */,
+				433726AD1D67B13900AEF870 /* ip_180.png */,
+				433726AE1D67B13900AEF870 /* ip_87.png */,
+				433726A31D67AFF200AEF870 /* ip_80.png */,
+				433726A41D67AFF200AEF870 /* ip_40.png */,
+				433726A51D67AFF200AEF870 /* ip_58.png */,
+				433726A61D67AFF200AEF870 /* ip_120.png */,
+			);
+			path = FloodAssist;
+			sourceTree = "<group>";
+		};
+		4386CDA61D640F7E00D933CA /* FloodAssistTests */ = {
+			isa = PBXGroup;
+			children = (
+				4386CDA71D640F7E00D933CA /* FloodAssistTests.swift */,
+				4386CDA91D640F7E00D933CA /* Info.plist */,
+			);
+			path = FloodAssistTests;
+			sourceTree = "<group>";
+		};
+		4386CDB11D640F7E00D933CA /* FloodAssistUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4386CDB21D640F7E00D933CA /* FloodAssistUITests.swift */,
+				4386CDB41D640F7E00D933CA /* Info.plist */,
+			);
+			path = FloodAssistUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4386CD8E1D640F7D00D933CA /* FloodAssist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4386CDB71D640F7E00D933CA /* Build configuration list for PBXNativeTarget "FloodAssist" */;
+			buildPhases = (
+				4386CD8B1D640F7D00D933CA /* Sources */,
+				4386CD8C1D640F7D00D933CA /* Frameworks */,
+				4386CD8D1D640F7D00D933CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloodAssist;
+			productName = FloodAssist;
+			productReference = 4386CD8F1D640F7E00D933CA /* FloodAssist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4386CDA21D640F7E00D933CA /* FloodAssistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4386CDBA1D640F7E00D933CA /* Build configuration list for PBXNativeTarget "FloodAssistTests" */;
+			buildPhases = (
+				4386CD9F1D640F7E00D933CA /* Sources */,
+				4386CDA01D640F7E00D933CA /* Frameworks */,
+				4386CDA11D640F7E00D933CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4386CDA51D640F7E00D933CA /* PBXTargetDependency */,
+			);
+			name = FloodAssistTests;
+			productName = FloodAssistTests;
+			productReference = 4386CDA31D640F7E00D933CA /* FloodAssistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4386CDAD1D640F7E00D933CA /* FloodAssistUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4386CDBD1D640F7E00D933CA /* Build configuration list for PBXNativeTarget "FloodAssistUITests" */;
+			buildPhases = (
+				4386CDAA1D640F7E00D933CA /* Sources */,
+				4386CDAB1D640F7E00D933CA /* Frameworks */,
+				4386CDAC1D640F7E00D933CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4386CDB01D640F7E00D933CA /* PBXTargetDependency */,
+			);
+			name = FloodAssistUITests;
+			productName = FloodAssistUITests;
+			productReference = 4386CDAE1D640F7E00D933CA /* FloodAssistUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4386CD871D640F7D00D933CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Thor;
+				TargetAttributes = {
+					4386CD8E1D640F7D00D933CA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LQ6TBK58P4;
+						LastSwiftMigration = 0830;
+					};
+					4386CDA21D640F7E00D933CA = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
+						TestTargetID = 4386CD8E1D640F7D00D933CA;
+					};
+					4386CDAD1D640F7E00D933CA = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
+						TestTargetID = 4386CD8E1D640F7D00D933CA;
+					};
+				};
+			};
+			buildConfigurationList = 4386CD8A1D640F7D00D933CA /* Build configuration list for PBXProject "FloodAssist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4386CD861D640F7D00D933CA;
+			productRefGroup = 4386CD901D640F7E00D933CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4386CD8E1D640F7D00D933CA /* FloodAssist */,
+				4386CDA21D640F7E00D933CA /* FloodAssistTests */,
+				4386CDAD1D640F7E00D933CA /* FloodAssistUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4386CD8D1D640F7D00D933CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433726A81D67AFF200AEF870 /* ip_152.png in Resources */,
+				433726B01D67B13900AEF870 /* ip_87.png in Resources */,
+				433726AA1D67AFF200AEF870 /* ip_40.png in Resources */,
+				433726B21D67B1AC00AEF870 /* ip_167.png in Resources */,
+				433726B41D67B1D700AEF870 /* ip_29.png in Resources */,
+				433726AF1D67B13900AEF870 /* ip_180.png in Resources */,
+				4386CD9D1D640F7E00D933CA /* LaunchScreen.storyboard in Resources */,
+				433726AC1D67AFF200AEF870 /* ip_120.png in Resources */,
+				433726A91D67AFF200AEF870 /* ip_80.png in Resources */,
+				433726A71D67AFF200AEF870 /* ip_76.png in Resources */,
+				4386CD9A1D640F7E00D933CA /* Assets.xcassets in Resources */,
+				4386CD981D640F7E00D933CA /* Main.storyboard in Resources */,
+				433726AB1D67AFF200AEF870 /* ip_58.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4386CDA11D640F7E00D933CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4386CDAC1D640F7E00D933CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4386CD8B1D640F7D00D933CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4386CD931D640F7E00D933CA /* AppDelegate.swift in Sources */,
+				4336294A1D6798D10036E87D /* ThemisAssistanceTableViewController.swift in Sources */,
+				4336294B1D6798D10036E87D /* ThemisObject.swift in Sources */,
+				4336294C1D6798D10036E87D /* ThemisInfoTableViewController.swift in Sources */,
+				4336294D1D6798D10036E87D /* LocationAnnotation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4386CD9F1D640F7E00D933CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4386CDA81D640F7E00D933CA /* FloodAssistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4386CDAA1D640F7E00D933CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4386CDB31D640F7E00D933CA /* FloodAssistUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4386CDA51D640F7E00D933CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4386CD8E1D640F7D00D933CA /* FloodAssist */;
+			targetProxy = 4386CDA41D640F7E00D933CA /* PBXContainerItemProxy */;
+		};
+		4386CDB01D640F7E00D933CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4386CD8E1D640F7D00D933CA /* FloodAssist */;
+			targetProxy = 4386CDAF1D640F7E00D933CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4386CD961D640F7E00D933CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4386CD971D640F7E00D933CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4386CD9B1D640F7E00D933CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4386CD9C1D640F7E00D933CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4386CDB51D640F7E00D933CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4386CDB61D640F7E00D933CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4386CDB81D640F7E00D933CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = FloodAssist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thor.FloodAssist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4386CDB91D640F7E00D933CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = FloodAssist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thor.FloodAssist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4386CDBB1D640F7E00D933CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FloodAssistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thor.FloodAssistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloodAssist.app/FloodAssist";
+			};
+			name = Debug;
+		};
+		4386CDBC1D640F7E00D933CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FloodAssistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thor.FloodAssistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloodAssist.app/FloodAssist";
+			};
+			name = Release;
+		};
+		4386CDBE1D640F7E00D933CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FloodAssistUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thor.FloodAssistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FloodAssist;
+			};
+			name = Debug;
+		};
+		4386CDBF1D640F7E00D933CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FloodAssistUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thor.FloodAssistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FloodAssist;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4386CD8A1D640F7D00D933CA /* Build configuration list for PBXProject "FloodAssist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4386CDB51D640F7E00D933CA /* Debug */,
+				4386CDB61D640F7E00D933CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4386CDB71D640F7E00D933CA /* Build configuration list for PBXNativeTarget "FloodAssist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4386CDB81D640F7E00D933CA /* Debug */,
+				4386CDB91D640F7E00D933CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4386CDBA1D640F7E00D933CA /* Build configuration list for PBXNativeTarget "FloodAssistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4386CDBB1D640F7E00D933CA /* Debug */,
+				4386CDBC1D640F7E00D933CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4386CDBD1D640F7E00D933CA /* Build configuration list for PBXNativeTarget "FloodAssistUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4386CDBE1D640F7E00D933CA /* Debug */,
+				4386CDBF1D640F7E00D933CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4386CD871D640F7D00D933CA /* Project object */;
+}
